@@ -1,7 +1,7 @@
 <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
-	<a href="{{site.baseurl}}/"><img class="badge" src="https://s.gravatar.com/avatar/b4820a09d5022bb974123ecb447809f6?s=80" alt="CH"></a>
+	<a href="{{site.baseurl}}/"><img class="badge" src="https://s.gravatar.com/avatar/b4820a09d5022bb974123ecb447809f6?s=80" alt="badge"></a>
 	{% for node in site.pages %}
 		{% unless node.nav_exclude %}
 		    {% if page.url == node.url %}
