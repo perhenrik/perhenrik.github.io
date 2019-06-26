@@ -6,7 +6,7 @@
 		{% unless node.nav_exclude %}
 		    {% if page.url == node.url %}
 		      <a class="active" href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a>
-                    {% elsif page.title contains '404' %}
+                    {% elsif node.title contains '404' %}
 			bæædi	
 		    {% else %}
 		      <a href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a>
