@@ -2,5 +2,5 @@ source 'https://rubygems.org'
 
 #gem 'jekyll'
 gem 'rouge'
-gem 'kramdown'
-gem "github-pages", ">= 188"
+gem 'kramdown', '>= 2.3.1'
+gem "github-pages", ">= 207"
